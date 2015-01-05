@@ -5,3 +5,5 @@ Within this module there is a single index.html file that calls the javascript c
 
 1. return.js
 1. functionScopes.js
+1. nestedFunctions.js
+1. closure.js
