@@ -1,11 +1,11 @@
-function hypotenuse(a,b){
+var scope = "global";
+// closure means that the something happens in the scope that it is invoked not in the scope that it is declared?
 
-  function square(x){
-    return x*x;
-  }
-
-  return Math.sqrt(square(a) + square(b));
-
+function  testScope(){
+  var scope = "local";
+  function innerFunc() {return scope;}
+  return innerFunc();
 }
 
-output.innerHTML = hypotenuse(3,4);
+var answer = testScope();
+output.innerHTML = answer;
