@@ -1,12 +1,3 @@
-var isMale=true;
-var isFemale = false;
-var isOld= true;
+// the equality (==) operator uses type conversion to decide if these things are equal. Reference --> http://www.c-point.com/javascript_tutorial/jsgrpComparison.htm
 
-// var isOldMan = isMale && isOld;
-
-//var isOldOrFemale = isFemale || isOld;
-
-//alert(isOldOrFemale);
-
-var isMale = ! isFemale;
-alert(isMale);
+alert(0==false);
