@@ -11,5 +11,7 @@ function hypotenuse(){
   }
 
   return Math.sqrt(squareSide1() + squareSide2());
-  
+
 }
+
+output.innerHTML = hypotenuse();
