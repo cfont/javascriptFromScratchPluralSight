@@ -1,17 +1,11 @@
-function hypotenuse(){
-  var side1 = 3;
-  var side2 = 4;
+function hypotenuse(a,b){
 
-  function squareSide1(){
-    return side1 * side1;
+  function square(x){
+    return x*x;
   }
 
-  function squareSide2(){
-    return side2 * side2;
-  }
-
-  return Math.sqrt(squareSide1() + squareSide2());
+  return Math.sqrt(square(a) + square(b));
 
 }
 
-output.innerHTML = hypotenuse();
+output.innerHTML = hypotenuse(3,4);
