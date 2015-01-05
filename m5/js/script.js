@@ -5,4 +5,5 @@ var add = function (x,y) {
 }
 
 var sum = add(5,7);
-alert(sum);
+// alert(sum);
+output.innerHTML = sum;
