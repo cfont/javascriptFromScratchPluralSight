@@ -4,6 +4,6 @@ var isOld= true;
 
 // var isOldMan = isMale && isOld;
 
-var isOldMan = isFemale || isOld;
+var isOldOrFemale = isFemale || isOld;
 
-alert(isOldMan);
+alert(isOldOrFemale);
