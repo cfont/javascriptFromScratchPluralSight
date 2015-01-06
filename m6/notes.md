@@ -6,7 +6,8 @@ Within this module there is a single index.html file that calls the javascript c
 * arrays are the only collection class in javascript. a special object type.
 * regardless of using single or double quotes for strings the other type can be used within the quotes without causing a problem.
 * you can also escape the quotes using "\".
-
+* a tool for regex: regexbuddy is an app for windows that helps build these
+* another tool for regex: regexlib.com is a web app
 
 
 So, from the script.js file we create the following files in order:
