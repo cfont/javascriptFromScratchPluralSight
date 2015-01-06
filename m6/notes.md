@@ -10,3 +10,4 @@ So, from the script.js file we create the following files in order:
 
 
 1. object.js
+1. arrays.js
