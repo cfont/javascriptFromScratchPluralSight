@@ -10,3 +10,6 @@ var primes = [1,2,3,5,7,11];
 var thirdPrime = primes[2];
 
 //output.innerHTML = thirdPrime;
+
+var myArrayLength = primes.length;
+output.innerHTML = myArrayLength;
