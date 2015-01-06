@@ -3,10 +3,10 @@ var string2 = " and lived happily ever after.";
 
 var concat = string1 + string2
 
-var words = concat.split(" ");
+// for regex search it must go between forward slashs
+// can use literals like "quick"
+// can use [a-z]* meaning any lowercase characters and any number of those characters
 
-var indexOfBrown = concat.indexOf("brown");
-var indexOfAnd = concat.indexOf("and");
-var myFox = concat.slice(indexOfBrown,indexOfAnd);
+var offset = concat.search(/[a-z]*/);
 
-output.innerHTML = myFox;
+output.innerHTML = offset;
