@@ -16,3 +16,4 @@ So, from the script.js file we create the following files in order:
 1. arrays.js
 1. pushPopArrays.js
 1. strings.js
+1. regex1.js
